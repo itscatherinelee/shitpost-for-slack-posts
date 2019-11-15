@@ -1,19 +1,21 @@
 import argparse # parser for command-line options
 from Characters import CHARACTERS
+#https://github.com/shrugs/partyparrot/blob/master/partyparrot.py
 
-# def convert_arr_to_str(character, string, space):
-# 	output_str = ' '
-# 	for row in arr:
-# 		for col in row:
-# 			output_str += string if col else space
-# 		output_str += '\n'
-# 	return output_str
+def convert_arr_to_character(input_character):
+	output_character = ' '
+	for row in arr:
+		for col in row:
+			if (col == '1'):
+				output_character += input_character
+		output_character += '\n'
+	return output_character
 
 def convert_str_to_emoji(input_str, input_emoji):
 	input_str = input_str.lower() #maybe in the future i would do uppercase and lowercase
 	#want to have all the strings that are input turn into the arrays
-	output_emoji = ' '
-	return output_emoji
+	output_emoji_str = ' '
+	return output_emoji_str
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="Convert your string into emojis")
