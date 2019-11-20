@@ -13,7 +13,7 @@ def convert_arr_to_character(input_character, input_emoji):
 			else:
 				output_character += "      "
 		output_character += "\n" #help organize the array
-	output_character += "\n\n" #space between characters 
+	output_character += "\n" #space between characters 
 	return output_character
 
 def convert_str_to_emoji(input_str, input_emoji):
@@ -45,6 +45,7 @@ if __name__ == "__main__":
 			#regular ass words
 			else:
 				output += convert_str_to_emoji(word, args.emoji)
+			output += "\n\n\n\n" #add space between words
 		# output = convert_str_to_emoji(args.text, args.emoji)
 		print(output)
 	except ValueError as e:
