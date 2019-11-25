@@ -7,13 +7,11 @@ Anything for the  **_m e m e s_**.
 I made this emoji text so I could spam the #texas channel and/or annoy some of my friends. It was a waste of my Friday night but I am very happy with the results.
 
 ### Requirement
-1.Your text that you want to write. 
-For example:
+1. Your text that you want to write. For example:
   * "ok boomer"
   * "how dare you"
   * "delaware is the best state"
-2. Your favorite emoji
-For example:
+2. Your favorite emoji. For example:
   * 👏
   * 😡
   * 💁‍♀️
