@@ -30,6 +30,7 @@ Or another idea, if you are one of those annoying people who says lit unironical
 ![lit](/images/lit.png)
 
 ##Inconsistent Capitalization
+
 Evan hates it when I type my words out inCONsiSTenTlY so I wrote a simple little script that will do it for me, thus, annoying Evan with _efficiency_
 
 ```python InconsistentCapitalization.py "hello evan how are you this fine day" ```
